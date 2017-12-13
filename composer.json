@@ -1,0 +1,21 @@
+{
+    "name": "iamgold/basedk",
+    "description": "This is a lightweight library for building a sdk in PHP. ",
+    "keywords": ["php", "sdk", "http", "client"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Eric Huang",
+            "email": "iamgold0105@gmail.com"
+        }
+    ],
+    "support": {
+        "source": "https://gihub.com/iamgold/basedk"
+    },
+    "require": {
+    	"php": ">=7.0.4"
+    },
+    "autoload": {
+        "psr-4": {"iamgold\\basedk\\": "src/"}
+    }
+}
